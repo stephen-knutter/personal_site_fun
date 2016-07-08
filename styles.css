@@ -1,0 +1,131 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: monospace, Verdana, Helvetica;
+	background-color: #DEDEDE;
+}
+
+body{
+  padding-bottom: 20px;
+}
+
+#container{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#nameHead{
+	text-align: center;
+}
+
+#infoWrap{
+	position: relative;
+	width: 500px;
+	margin: 10px auto;
+	top: 100px;
+}
+
+#picWrap{
+	width: 150px;
+    height: 150px;
+    padding: 10px;
+	background-color: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    position: relative;
+    border-radius: 100%;
+
+}
+
+#profileImg{
+	width: 150px;
+    height: 150px;
+    display: block;
+}
+
+
+#slide1{
+	background: #000000 url('./img/computer.jpg') 50% 0 no-repeat fixed;
+    color: #ffffff;
+    height: 5px;
+    margin: 0;
+    padding: 100px 0 260px 0;
+    background-size: cover;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset,0 1px 1px rgba(100,100,100,0.3);
+}
+
+#descWrap{
+	width: 500px;
+	position: relative;
+	margin: 20px auto;
+	border: 1px solid #000;
+	background-color: rgba(0, 0, 0, .8);
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset,0 1px 1px rgba(100,100,100,0.3);
+}
+
+i.fa.fa-info-circle{
+	text-align: center;
+	margin: 0 auto;
+	width: 20px;
+}
+
+.iText{
+	font-size: 18px;
+	position: relative;
+	color: #fff;
+	margin: 0;
+	padding: 10px;
+}
+
+#moreLink{
+	color: #ff7400;
+	text-decoration: none;
+}
+
+#moreLink:hover{
+	text-decoration: underline;
+}
+
+#footer{
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#footerList{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.footerItem{
+	list-style: none;
+	padding: 5px;
+	color: #666;
+}
+
+#extra{
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#extraImgWrap{
+	position: relative;
+	width: 248px;
+	margin: 0 auto;
+	border: 1px solid #666;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset,0 1px 1px rgba(100,100,100,0.3);
+	padding: 5px;
+}
+
+#codingImg{
+	display: block;
+}
