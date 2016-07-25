@@ -30,29 +30,29 @@ body{
 
 #picWrap{
 	width: 150px;
-    height: 150px;
-    padding: 10px;
+		height: 150px;
+		padding: 10px;
 	background-color: rgba(0, 0, 0, .4);
-    margin: 0 auto;
-    position: relative;
-    border-radius: 100%;
+		margin: 0 auto;
+		position: relative;
+		border-radius: 100%;
 
 }
 
 #profileImg{
 	width: 150px;
-    height: 150px;
-    display: block;
+		height: 150px;
+		display: block;
 }
 
 
 #slide1{
 	background: #000000 url('./img/computer.jpg') 50% 0 no-repeat fixed;
-    color: #ffffff;
-    height: 5px;
-    margin: 0;
-    padding: 100px 0 260px 0;
-    background-size: cover;
+		color: #ffffff;
+		height: 5px;
+		margin: 0;
+		padding: 100px 0 260px 0;
+		background-size: cover;
 	border-top: 1px solid #666;
 	border-bottom: 1px solid #666;
 	box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset,0 1px 1px rgba(100,100,100,0.3);
